@@ -1,7 +1,9 @@
 # LLD Practice — machine coding problems
 
-Patterns are done. Now build actual systems. **Write the code yourself** —
-each folder has skeletons with `TODO`s, not solutions.
+Patterns are done. Now build actual systems. **Write the code yourself.**
+
+> **New to this? Read [`HOW-TO-THINK.md`](HOW-TO-THINK.md) first** — how to
+> approach any LLD problem, and where design patterns actually come from.
 
 ## The order to do them
 
