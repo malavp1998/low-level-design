@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: ./run.sh strategy | observer | state | command | all
+# Usage: ./run.sh strategy | observer | state | command | tictactoe | all
 set -e
 cd "$(dirname "$0")"
 
@@ -16,7 +16,8 @@ run_one() {
     observer) java -cp out behavioral.observer.ObserverMain ;;
     state)    java -cp out behavioral.state.StateMain ;;
     command)  java -cp out behavioral.command.CommandMain ;;
-    *) echo "unknown: $1 (use strategy|observer|state|command|all)"; exit 1 ;;
+    tictactoe) java -cp out lld.tictactoe.TicTacToeMain ;;
+    *) echo "unknown: $1 (use strategy|observer|state|command|tictactoe|all)"; exit 1 ;;
   esac
 }
 
